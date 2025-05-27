@@ -179,6 +179,10 @@ h2 {
 }
 
 @media(max-width:680px) {
+     body {
+          margin: auto;
+     }
+
      .login-wrapper {
           width: 100%;
           max-width: 500px;
