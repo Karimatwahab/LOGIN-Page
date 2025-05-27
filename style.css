@@ -22,8 +22,6 @@ body {
 
 }
 
-
-
 .login-wrapper {
      background-color: rgba(0, 0, 0, 0.75);
      color: #fff;
@@ -32,13 +30,14 @@ body {
      border-radius: 4px;
      width: 500px;
      margin: 0 auto;
+
 }
 
 .logo img {
      width: 40px;
      background-color: white;
      border-radius: 50%;
-     margin-bottom: 20px;
+     margin-bottom: 10px;
 }
 
 h2 {
@@ -65,6 +64,10 @@ h2 {
      color: white;
      font-size: 14px;
      font-weight: 700;
+}
+
+.social-login:hover {
+     border: 1px solid rgba(255, 255, 255, 0.9);
 }
 
 .form {
@@ -95,6 +98,43 @@ h2 {
      width: 100%;
      border: 1px solid rgba(255, 255, 255, 0.4);
      border-radius: 4px;
+}
+
+.google {
+     display: flex;
+     justify-content: space-evenly;
+     text-align: center;
+}
+
+.fa-brands.fa-google {
+     padding-top: 3px;
+}
+
+.facebook {
+     display: flex;
+     justify-content: space-evenly;
+     text-align: center;
+}
+
+.fa-brands.fa-facebook {
+     padding-top: 3px;
+}
+
+
+.apple {
+     display: flex;
+     justify-content: space-evenly;
+     text-align: center;
+}
+
+.fa-brands.fa-apple {
+     padding-top: 3px;
+}
+
+.phone {
+     display: flex;
+     justify-content: space-evenly;
+     text-align: center;
 }
 
 
@@ -128,11 +168,47 @@ h2 {
 
 .footer {
      color: #fff;
+     font-size: 14px;
      margin-top: 30px;
-     padding: 20px 0;
+     padding: 30px 0;
      text-align: center;
 }
 
 .footer a {
      color: #fff;
+}
+
+@media(max-width:680px) {
+     .login-wrapper {
+          width: 100%;
+          max-width: 500px;
+          padding: 30px 50px;
+
+     }
+
+     h2 {
+          font-size: 20px;
+          margin-bottom: 25px;
+     }
+
+     .social-login {
+          font-size: 12px;
+          font-weight: 600;
+     }
+
+     .input-label {
+          font-size: 12px;
+          font-weight: 600;
+     }
+
+     .login-btn {
+          padding: 10px;
+          font-size: 14px;
+     }
+
+     .footer {
+          font-size: 10px;
+          padding: 6px;
+          margin-top: 20px;
+     }
 }
