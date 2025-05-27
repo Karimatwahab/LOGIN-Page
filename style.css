@@ -178,9 +178,9 @@ h2 {
      color: #fff;
 }
 
-@media(max-width:680px) {
+@media(max-width:600px) {
      body {
-          margin: auto;
+          margin: 0;
      }
 
      .login-wrapper {
