@@ -102,33 +102,36 @@ h2 {
 
 .google {
      display: flex;
-     justify-content: space-evenly;
+     gap: 10px;
      text-align: center;
 }
 
 .fa-brands.fa-google {
      padding-top: 3px;
+     text-align: center;
 }
 
 .facebook {
      display: flex;
-     justify-content: space-evenly;
+     gap: 10px;
      text-align: center;
 }
 
 .fa-brands.fa-facebook {
      padding-top: 3px;
+     text-align: center;
 }
 
 
 .apple {
      display: flex;
-     justify-content: space-evenly;
+     gap: 10px;
      text-align: center;
 }
 
 .fa-brands.fa-apple {
      padding-top: 3px;
+     text-align: center;
 }
 
 .phone {
