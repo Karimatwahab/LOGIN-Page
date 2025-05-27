@@ -133,6 +133,17 @@ span img {
      border: none;
 }
 
-.trending {
-     disp
+.trending {}
+
+.trending h2 {
+     display: flex;
+     justify-content: space-between;
+     margin-top: 30px;
+     font-size: 20px;
+}
+
+.show-all a {
+     text-decoration: none;
+     color: #e2d9d9;
+     font-size: 15px;
 }
