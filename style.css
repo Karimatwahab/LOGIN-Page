@@ -153,6 +153,11 @@ h2 {
      font-weight: 700;
 }
 
+.login-btn a {
+     color: #f8efef;
+     text-decoration: none;
+}
+
 .forgot {
      display: flex;
      align-self: center;
