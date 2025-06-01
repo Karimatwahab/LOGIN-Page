@@ -133,19 +133,73 @@ span img {
      border: none;
 }
 
-
-
-.trending {}
-
 .trending h2 {
      display: flex;
      justify-content: space-between;
      margin-top: 30px;
-     font-size: 20px;
+     font-size: 22px;
+     font-weight: 800;
 }
 
 .show-all a {
      text-decoration: none;
      color: #e2d9d9;
      font-size: 15px;
+}
+
+.songs-container {
+     display: flex;
+     gap: 20px;
+     margin: 20px 0;
+     padding-bottom: 50px;
+}
+
+.song-card img {
+     width: 160px;
+     border-radius: 5px;
+}
+
+.song-card h3 {
+     padding: 10px 0;
+     font-weight: 700;
+}
+
+.song-card p {
+     font-size: 15px;
+     color: #e2d9d9;
+}
+
+.song-card:hover {
+     width: 180px;
+     padding: 10px;
+     background-color: rgb(68, 68, 71);
+}
+
+.popular-artists h2 {
+     display: flex;
+     justify-content: space-between;
+     margin-top: 30px;
+     font-size: 22px;
+     font-weight: 800;
+}
+
+.artists-container {
+     display: flex;
+     gap: 20px;
+     margin: 20px 0;
+}
+
+.artists-container img {
+     width: 170px;
+     border-radius: 50%;
+}
+
+.artist-card h3 {
+     padding: 10px 0;
+     font-weight: 700;
+}
+
+.artist-card p {
+     font-size: 15px;
+     color: #e2d9d9;
 }
