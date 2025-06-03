@@ -8,13 +8,14 @@
 body {
      background-color: black;
      color: white;
+     height: 100vh;
 
 }
 
 .container {
      width: 100%;
      display: flex;
-     height: 100vh;
+
 
 }
 
@@ -24,6 +25,7 @@ body {
      display: flex;
      flex-direction: column;
      padding: 15px;
+
 
 }
 
@@ -95,7 +97,7 @@ span img {
 
 .lang-btn {
      margin-top: 15px;
-     padding: 6px 20px;
+     padding: 8px 20px;
      border-radius: 20px;
      font-weight: 600;
      color: white;
@@ -125,6 +127,10 @@ span img {
      padding: 10px 0;
 }
 
+.nav-bar a:hover {
+     text-decoration: underline;
+}
+
 .nav-btn {
      padding: 8px 14px;
      border-radius: 20px;
@@ -145,6 +151,10 @@ span img {
      text-decoration: none;
      color: #e2d9d9;
      font-size: 15px;
+}
+
+.show-all a:hover {
+     text-decoration: underline;
 }
 
 .songs-container {
@@ -169,11 +179,7 @@ span img {
      color: #e2d9d9;
 }
 
-.song-card:hover {
-     width: 180px;
-     padding: 10px;
-     background-color: rgb(68, 68, 71);
-}
+
 
 .popular-artists h2 {
      display: flex;
